@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="277dp">
+
+        <ImageView
+            android:id="@+id/developer"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_margin="80dp"
+            android:background="@drawable/joey" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/upper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:text="This App Is Created By Ankit Kumar Student
+Of KIIT UNIVERSITY As a Part of Internshala Android Devlopment Training Project "
+            android:textSize="20sp" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upper"
+            android:text="APP VERSION 1.O"
+            android:textColor="#222222"
+            android:textSize="30dp"
+            android:layout_marginLeft="50dp"/>
+</LinearLayout>
+</LinearLayout>
